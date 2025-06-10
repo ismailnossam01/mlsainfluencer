@@ -32,7 +32,7 @@ function showTechDetail(techId) {
   // Add event listeners
   document.getElementById('back-button').addEventListener('click', hideDetailView);
   document.getElementById('learn-more-button').addEventListener('click', () => {
-    window.open(`${tech.url}?wt.mc_id=studentamb_469401`, '_blank');
+    window.open(`${tech.url}`, '_blank');
   });
   
   // Scroll to top
